@@ -1,2 +1,38 @@
 This week we looked at Express.js which is a framework used by developers. A framework
 we used was Node.js. 
+
+The first task was to install Express.js of which was relatively to install. I followed
+the instructions from the Express application generator guide. We learnt how to check which
+version we were on (express --version) and how to keep our Express.js upto date. We then had 
+to create a project folder on our systems which would create a package.json file in the folder.
+ {
+  "name": "hello world",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "address": "^1.1.0",
+    "express": "^4.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Carlos",
+  "license": "ISC"
+}
+
+This is the contents of the package.json file I made.
+
+We then had to create a file called server.js in the same project folder and the contents look like this
+
+const express = require('express')
+let app = express()
+
+app.all('*', (req, res) => {
+  res.send('Welcome to WEB601!')
+})
+
+app.listen(3000, 
+  () => {console.log('Open at localhost:3000')}
+)
