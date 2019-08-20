@@ -1,0 +1,41 @@
+http://google.com/#q=express 
+http://www.yahoo.com/search?q=ali&first=3 
+
+The sub domain for this is www. (This is optional) 
+
+http://localhost:4200/home?test=1#history 
+
+1st protocol = https: 
+2nd host = google.com 
+3rd Port = 4200 
+4th path = Home 
+5th Querystring = ?q=ali&first=3 
+6th fragment (hash) = #history 
+
+Difference between http and https is the security 
+
+HTTP request methods = GET AND POST
+Req Headers
+
+app.get(/headers, function(req,res))
+res.set('Content-Type','text/plain')
+var s = ''
+for(var name in req.headers) s += ':' + req.header[name]
+res.send(s)
+})
+
+req.params
+req.Query
+re.body
+req.route
+req.headers
+
+Res Object
+
+res.status()
+
+default for status is 200
+status for not found is 400
+status for server error is 500
+
+res.json() or res.json(status, json)
