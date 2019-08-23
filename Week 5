@@ -51,6 +51,13 @@ npm start (to start the server)
 
 npm i faker can be used randomly generate a city with avatars
 
+Babel can be used to compile javascript https://babeljs.io
+
+Difference between HTML and JSX
+HTML = <div style="background-color:red"><div/>
+JSX = <div style={{backgroundcolor."red"}}><div/>
+
+
 This code is for my index.js from the react app i created.
 
 // import React and reactDOM
@@ -59,13 +66,13 @@ import ReactDom from 'react-dom'
 
 
 // Create a React Component
-
 const App = () => {
     return <div>
-        <h1> About </h1>
-        <p> This is the about page.</p>
-    </div>
-    
+        <h1> Carlos A </h1>
+        <img src="image.jpeg" alt="sefeee" ></img>
+        <p style={{color: "red"}}> Bachelor of Information Technology </p>
+        </div>
+   
 }
 
 //Render react Component and view it on my screen
