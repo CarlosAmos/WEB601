@@ -39,3 +39,35 @@ status for not found is 400
 status for server error is 500
 
 res.json() or res.json(status, json)
+
+Session 2
+
+cd workspace
+npm i react-app web601
+npm i -g create-react-app 
+cd web601/
+code . (Open in vscode)
+npm start (to start the server)
+
+npm i faker can be used randomly generate a city with avatars
+
+This code is for my index.js from the react app i created.
+
+// import React and reactDOM
+import React from 'react'
+import ReactDom from 'react-dom'
+
+
+// Create a React Component
+
+const App = () => {
+    return <div>
+        <h1> About </h1>
+        <p> This is the about page.</p>
+    </div>
+    
+}
+
+//Render react Component and view it on my screen
+
+ReactDom.render(<App/>, document.querySelector('#root'))
