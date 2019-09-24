@@ -1,0 +1,22 @@
+Create Folder called public 
+Create folder called script in public 
+Create file called app.js 
+
+Typing html: inserts a html template 
+Npm I –g live-server 
+
+Live-server –v to see latest version 
+
+Npm I –save babel-preset-env@latest babel-preset-react@latest 
+
+Babel src/app.js --out-file=public/scripts/app.js --presets=env,react 
+
+npm I babel-cli  
+
+Instead of npm setting up an app for us, this week we looked at creating 
+an app from scratch. To create a html template from scratch, can type html
+into the code and then select HTML5. Only two scripts were added to the template
+which were links to a react package online. We installed babel for this class which
+is pretty much a javascript compiler. Once we added the code we needed to get the 
+app working, we used Live-server to run the app on our local machines. A entered the
+required code but my app ended up not working. I would get an error saying 
