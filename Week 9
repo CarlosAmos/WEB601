@@ -6,10 +6,8 @@ Const data = require(./data)
 Function employeList(req,res) 
 
 Can't use the same status code twice 
-
 { 
 "name": "Name", 
 "salary": "$5000" 
 } 
-
 API's

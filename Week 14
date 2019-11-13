@@ -1,0 +1,13 @@
+For this week, I worked on my project since I hadn't done much since handing in milestone two. I added the Knex for the tips 
+one the home page and for the events. I was using Postman to test my requests to my server and I was able to do a GET, GET 
+by ID and a DELETE request but I wasn't able to do a POST to my database as I was getting an error saying I didn't have the 
+mandatory columns when I did have the right columns. I found out that Postman was the problem as Postman didn't have the option
+to send the data as a JSON (Later found out it does have this option but didn't look hard enough). Ali suggested Insomnia which 
+did show this option and I was able to do a POST to my database and I was able to update existing data. I currently don't have any
+real data on my app but I'm currently working on adding real data page by page. I also don't currently have a way of sending 
+data to my database from my app but once I've finished adding real data, I will work on creating forms that can send data to my 
+database and then work on adding redux.
+
+On the Friday session, Ali showed us a working app that can login. I currently don't have a login for my app and I'm not sure if I 
+will add a login page but from looking at the code, I may be able to incorporate it into my app for the managing trail page. I may
+use it for my deleting trails and adding trails.

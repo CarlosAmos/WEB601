@@ -1,1 +1,5 @@
-React-Redux
+This week we looked at REDUX and looked at some tutorials on the REDUX.JS.ORG in the get started sections.
+The tutorials looked at Actions, Reducers, Stores, Data flow and REDUXs usage with React.
+From what I understand, Actions are used to send data to the Store, Reducers specify how the state 
+changes, Store is where the state is stored (I think) and the data flow is the flow of the Actions, 
+Reducers and Stores.

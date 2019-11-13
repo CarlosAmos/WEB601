@@ -1,0 +1,4 @@
+I used this week to work on my app by setting up my server. For my server I set up a Knex for the trails on my database as that is what my
+app is based around. I also setup my database in MySQL workbench and was able to do a GET request from the server and then get the data 
+from my API and insert it into a list on my app. But I wasn't able to do a POST to my server as I would get an error saying my values are 
+undefined. 
